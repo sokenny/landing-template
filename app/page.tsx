@@ -7,6 +7,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import styles from "./page.module.css"
 
 export default function Home() {
   return (
@@ -22,14 +23,14 @@ export default function Home() {
         </div>
 
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          <span className="text-blue-600">Speech</span> Focused Language
+         Speech Focused <br />Language
           Learning
         </h1>
 
-        <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
+        <h2 className={`mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl ${styles.achedos}`}>
           Convo helps you improve your spoken fluency with the help of an AI
           tutor.
-        </p>
+        </h2>
 
         <Link
           className={cn(
@@ -41,7 +42,9 @@ export default function Home() {
           )}
           href={"/dashboard"}
         >
+          <button>
           Start Speaking Now
+          </button>
         </Link>
       </MaxWidthWrapper>
 
