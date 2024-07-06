@@ -18,7 +18,6 @@ export default function RootLayout({
     <html lang="en" className="light">
      
       <head>
-      <script async src="http://localhost:3001/public/clientjs" data-stellar-api-key="5499bfe497b626019f6b158e6c4c355d:fde3d172e4a66496a0edf28e1fff29ad9e707f816c0d16bfb6269b8ce305ff04"></script>
       </head>
 
       <body
