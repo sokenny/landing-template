@@ -18,6 +18,7 @@ export default function RootLayout({
     <html lang="en" className="light">
      
       <head>
+      <script async src="https://api.gostellar.app/public/clientjs" data-stellar-api-key="8ed22e571cff5cb1eb33e61086ef6e14:8163bc61e06f6f4c33c0dda3135d4d5b65107ed8bed763facca670ee28cc69e9"></script>
       </head>
 
       <body
