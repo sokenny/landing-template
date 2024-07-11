@@ -22,9 +22,9 @@ export default function RootLayout({
 
 
     {/* dangerously set html */}
-    <script dangerouslySetInnerHTML={{__html: `<!-- Start VWO Async SmartCode -->
+    <div dangerouslySetInnerHTML={{__html: `<!-- Start VWO Async SmartCode -->
 <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
-<script >
+<script  id="vwoCode" type="text/javascript">
 window._vwo_code || (function() {
 var account_id=925528,
 version=2.1,
