@@ -20,11 +20,12 @@ export default function RootLayout({
       <head>
 
 
-<link rel="preconnect" href="http://localhost:3001"/>
-<link rel="preconnect" href="http://localhost:3001"/>
-<link rel="dns-prefetch" href="http://localhost:3001"/>
-<link rel="preload" href="http://localhost:3001/client_js/stellar.js" as="script"/>
-<script async src="http://localhost:3001/client_js/stellar.js" data-stellar-api-key="4d621b996364381bbddbe36c5c530bb1:fadde108021b2d40c493f0af28de009bba1a2e41faee7931319a363df6b86e0c"/>
+
+<link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net"/>
+<link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net"/>
+<link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net"/>
+<link rel="preload" href="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js" as="script"/>
+<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js" data-stellar-api-key="26847004ee5410d3208fa7f997a39cc1:6e75ca837aca6e092c333a322fe78d42ec3c745391a1949f6d05d9f1f2fc1fd8"/>
 
       </head>
 
