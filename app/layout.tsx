@@ -18,14 +18,11 @@ export default function RootLayout({
     <html lang="en" className="light">
      
       <head>
-
-  
-<link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net"/>
-<link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net"/>
-<link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net"/>
-<link rel="preload" href="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js" as="script"/>
-<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js" data-stellar-api-key="6aec476016af275c4def719526cddfc9:32d6c214b878909c70644ee95281bd30c39a620ceb9e970f661b3c476528d38a"/>
-
+      <link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net"/>
+      <link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net"/>
+      <link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net"/>
+      <link rel="preload" href="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js" as="script"/>
+      <script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js" data-stellar-api-key="8df7668b2de9a6f264c82647a24330e2:c2991de330dae1bafa8556363a45b24d66a03833732755cde65324709207a147"/>
       </head>
 
       <body
