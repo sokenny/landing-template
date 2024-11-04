@@ -22,6 +22,8 @@ export default function RootLayout({
 
 
       <script
+          type="text/javascript"
+          id="vwoCode"
           dangerouslySetInnerHTML={{
             __html: `
               <!-- Start VWO Async SmartCode -->
