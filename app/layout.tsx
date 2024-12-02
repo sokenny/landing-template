@@ -44,9 +44,10 @@ export default function RootLayout({
             `,
         }}
       />
+  
   <link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net" />
 <link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net" />
-<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=8c051a42bb956110bf96bc9749b0add8:ef179c812dde68f0322a4119c3e6f785a7df8a68da12d2d2d205b8855bcedc1d"></script>
+<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=d009a86fc28156b4946ad2c26a18bf0f:8d8beeef8cca66856034625e6ddbacf60f5dc371bb533b6e4e8eaae660447f32"></script>
       </head>
 
       <body
