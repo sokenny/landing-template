@@ -10,7 +10,6 @@ import { cn } from "@/lib/utils";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import styles from "./page.module.css"
-import ConversionButton from "./components/ConversionButton";
 
 export default function Home() {
   return (
@@ -19,11 +18,9 @@ export default function Home() {
 
       {/* Hero */}
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
-        <ConversionButton />
 
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-         Speech Focused <br />Language
-          Learning
+        THIS IS LANDING PAGE B
         </h1>
 
         <h2 className={`mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl ${styles.achedos}`}>
