@@ -47,8 +47,8 @@ export default function RootLayout({
 <link rel="preconnect" href="http://localhost:3001" />
 <link rel="dns-prefetch" href="http://localhost:3001" />
 {/* <script async src="http://localhost:3001/public/clientjs?apiKey=56c1c9f07ea1ccfd9e35cd83f4565f4e:0edc9300d50461ed7a3295aef2e228addb44e5872065287ca5f86d0a703f4c2d"></script> */}
-<script async src="http://localhost:3001/public/clientjs?apiKey=fe65963970f8b88bb25a1ba2efbee978:31deec47ddcd4a13f90c5313a63b91291d9caf86e09c95390b0e9655d97e2871"></script>
-{/* <script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=fe65963970f8b88bb25a1ba2efbee978:31deec47ddcd4a13f90c5313a63b91291d9caf86e09c95390b0e9655d97e2871"></script> */}
+{/* <script async src="http://localhost:3001/public/clientjs?apiKey=fe65963970f8b88bb25a1ba2efbee978:31deec47ddcd4a13f90c5313a63b91291d9caf86e09c95390b0e9655d97e2871"></script> */}
+<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=fe65963970f8b88bb25a1ba2efbee978:31deec47ddcd4a13f90c5313a63b91291d9caf86e09c95390b0e9655d97e2871"></script>
 
 
 
