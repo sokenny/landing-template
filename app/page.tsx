@@ -18,15 +18,15 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
+      <MaxWidthWrapper id="hero-section" className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
         <ConversionButton />
 
-        <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
+        <h1 id="hero-title" className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
          Speech Focused <br />Language
           Learning
         </h1>
 
-        <h2 className={`mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl ${styles.achedos}`}>
+        <h2 id="hero-subtitle" className={`mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl ${styles.achedos}`}>
           Convo helps you improve your spoken fluency with the help of an AI
           tutor.
         </h2>
@@ -48,7 +48,7 @@ export default function Home() {
       </MaxWidthWrapper>
 
       {/* Value Prop */}
-      <div>
+      <div id="value-prop-section">
         <div className="relative isolate">
           <div
             aria-hidden="true"
@@ -97,9 +97,9 @@ export default function Home() {
 
       {/* Features */}
       <MaxWidthWrapper>
-        <div className="mx-auto mt-20 flex max-w-5xl flex-col gap-20 sm:mt-40 sm:gap-40 ">
+        <div id="features-section" className="mx-auto mt-20 flex max-w-5xl flex-col gap-20 sm:mt-40 sm:gap-40 ">
           {/* Intro */}
-          <div>
+          <div id="intro-section">
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
@@ -162,7 +162,7 @@ export default function Home() {
           </div>
 
           {/* Scenarios */}
-          <div>
+          <div id="scenarios-section">
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
@@ -177,8 +177,8 @@ export default function Home() {
             {/* steps */}
 
             <div className="flex items-center justify-center">
-              <div className="flex flex-col gap-6 md:flex-row">
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+              <div id="scenario-cards" className="flex flex-col gap-6 md:flex-row">
+                <Card id="cafe-scenario" className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
                   <CardTitle className="titulardo">At the Cafe</CardTitle>
                   <CardDescription className="mb-3 text-center">
                     Learn how to order drinks and snacks
@@ -191,7 +191,7 @@ export default function Home() {
                     quality={100}
                   />
                 </Card>
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                <Card id="taxi-scenario" className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
                   <CardTitle className="titulardo">Getting A Taxi</CardTitle>
                   <CardDescription className="mb-3 text-center">
                     Learn how to navigate and get directions
@@ -205,7 +205,7 @@ export default function Home() {
                   />
                 </Card>
 
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                <Card id="social-activities-scenario" className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
                   <CardTitle className="titulardo">Social Activities</CardTitle>
                   <CardDescription className="mb-3 text-center">
                     Learn how to make plans and catch up with friends
@@ -228,7 +228,7 @@ export default function Home() {
           </div>
 
           {/* Powered By */}
-          <div>
+          <div id="powered-by-section">
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
@@ -242,8 +242,8 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-center">
-              <div className="flex flex-col gap-6 md:flex-row">
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+              <div id="technology-cards" className="flex flex-col gap-6 md:flex-row">
+                <Card id="whisper-ai-card" className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
                   <CardTitle>Whisper AI</CardTitle>
                   <CardDescription className="mb-3 text-center">
                     Speech to text
@@ -257,7 +257,7 @@ export default function Home() {
                     className="rounded-xl"
                   />
                 </Card>
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                <Card id="gpt-4-card" className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
                   <CardTitle>GPT 4</CardTitle>
                   <CardDescription className="mb-3 text-center">
                     Comprehensive prompts and responses
@@ -272,7 +272,7 @@ export default function Home() {
                   />
                 </Card>
 
-                <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
+                <Card id="webspeech-card" className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
                   <CardTitle>WebSpeech</CardTitle>
                   <CardDescription className="mb-3 text-center">
                     Text to speech
@@ -291,7 +291,7 @@ export default function Home() {
           </div>
 
           {/* Feedback */}
-          <div>
+          <div id="feedback-section">
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
