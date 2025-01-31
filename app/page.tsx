@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
 
       {/* Hero */}
-      <MaxWidthWrapper id="hero-section" className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
+      <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
         <ConversionButton />
 
         <h1 id="hero-title" className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
