@@ -17,7 +17,7 @@ export default function SignInPage() {
         ← Back
       </Link>
       
-      <h1 className="text-4xl font-bold">SIGN UP</h1>
+      <h1 className="text-4xl font-bold" id="sign-up-title">SIGN UP</h1>
     </div>
   )
 }

@@ -11,11 +11,13 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import styles from "./page.module.css"
 import ConversionButton from "./components/ConversionButton";
+// import DelayedModal from './components/DelayedModal'
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      {/* <DelayedModal /> */}
 
       {/* Hero */}
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
