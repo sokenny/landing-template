@@ -44,6 +44,8 @@ dangerouslySetInnerHTML={{
 <script async src="https://app.humblytics.com/hmbl.min.js?id=da95c67"></script>
 
 
+<script async src="https://app.humblytics.com/optimize.min.js?id=da95c67"></script>
+
   </head>
 
 
