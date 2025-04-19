@@ -37,8 +37,9 @@ export default function Home() {
             "text-lg",
           )}
           href={"/dashboard"}
+          id="start-speaking-now"
         >
-          <button id="start-speaking-now">
+          <button >
           Start Speaking Now
           </button>
         </Link>
