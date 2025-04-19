@@ -74,6 +74,7 @@ const Navbar = () => {
                       size: "sm",
                     })}
                     href="/sign-up"
+                    id="get-started"
                   >
                     Get started
                   </Link>
