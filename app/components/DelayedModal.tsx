@@ -7,13 +7,13 @@ import { X } from 'lucide-react'
 export default function DelayedModal() {
   const [isVisible, setIsVisible] = useState(false)
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true)
-    }, 3000)
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsVisible(true)
+  //   }, 3000)
 
-    return () => clearTimeout(timer)
-  }, [])
+  //   return () => clearTimeout(timer)
+  // }, [])
 
   if (!isVisible) return null
 
@@ -38,6 +38,7 @@ export default function DelayedModal() {
             setIsVisible(false);
           }}
           className="mt-4 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+          id="probandou"
         >
           Try For Free
         </button>

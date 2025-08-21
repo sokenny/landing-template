@@ -11,13 +11,13 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import styles from "./page.module.css"
 import ConversionButton from "./components/ConversionButton";
-// import DelayedModal from './components/DelayedModal'
+import DelayedModal from './components/DelayedModal'
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <DelayedModal /> */}
+      <DelayedModal />
 
       {/* Hero */}
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
@@ -48,6 +48,19 @@ export default function Home() {
           </button>
         </Link>
       </MaxWidthWrapper>
+
+   
+      {/* dangerously set inner html and add script abnove */}
+      <div dangerouslySetInnerHTML={{
+        __html: `<script>
+          document.querySelector('#caconarda').addEventListener('click', () => {
+            alert('Caconarda clicked!');
+          });
+        </script>`,
+      }}
+      ></div>
+
+      {/* Features Section */}
 
       {/* Value Prop */}
       <div id="value-prop-section">
@@ -149,7 +162,11 @@ export default function Home() {
               </li>
               <li className="md:flex-1">
                 <div className="flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4">
-                  <span className="text-sm font-medium text-blue-600">
+                  <span className="text-sm font-medium text-blue-600" id="caconarda" onClick={
+                    () => {
+                      alert('Caconarda clicked!');
+                    }
+                  }>
                     Step 3
                   </span>
                   <span className="text-xl font-semibold">
