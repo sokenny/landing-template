@@ -44,23 +44,11 @@ export default function RootLayout({
             `,
         }}
       />  
-  {/* <link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net" /> */}
-{/* <link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net" /> */}
-{/* <script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=d102e03a2c2ae7d23117c46abff4e70d:b62874df9ce5c4e41fe1b8ed6980bce18956cd3fc541fa2acddc24766652aa5e"></script> */}
-
-{/* <script async src="http://localhost:3001/public/clientjs?apiKey=efd8d5c46ebba908b3d937aa8c620905:2e696ce42ada9f662f76270be300f49991cb2423389b0bef9159b57a56c5bf86"></script> */}
- 
-
-  {/* <link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net" />
-<link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net" />
-<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=29760eb8d05b14779a48eb98a6b330dc:65f2a8bfd7395da4025368b1a026a9ce8642c0f0ffaa22110190297ba918105b"></script> */}
-
-
 
   <link rel="preconnect" href="https://d3niuqph2rteir.cloudfront.net" />
 <link rel="dns-prefetch" href="https://d3niuqph2rteir.cloudfront.net" />
-<script async src="http://localhost:3001/public/clientjs?apiKey=29760eb8d05b14779a48eb98a6b330dc:65f2a8bfd7395da4025368b1a026a9ce8642c0f0ffaa22110190297ba918105b"></script>
-{/* <script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=29760eb8d05b14779a48eb98a6b330dc:65f2a8bfd7395da4025368b1a026a9ce8642c0f0ffaa22110190297ba918105b"></script>  */}
+{/* <script async src="http://localhost:3001/public/clientjs?apiKey=29760eb8d05b14779a48eb98a6b330dc:65f2a8bfd7395da4025368b1a026a9ce8642c0f0ffaa22110190297ba918105b"></script> */}
+<script async src="https://d3niuqph2rteir.cloudfront.net/client_js/stellar.js?apiKey=29760eb8d05b14779a48eb98a6b330dc:65f2a8bfd7395da4025368b1a026a9ce8642c0f0ffaa22110190297ba918105b"></script> 
 
   </head>
 
